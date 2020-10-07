@@ -22,7 +22,6 @@ public class Activity_2 {
     public void beforeClass() throws MalformedURLException {
         // Set the Desired Capabilities
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("deviceId", "37311719");
         caps.setCapability("platformName", "Android");
         caps.setCapability("appPackage", "com.google.android.keep");
         caps.setCapability("appActivity", ".activities.BrowseActivity");
