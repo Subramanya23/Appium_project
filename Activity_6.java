@@ -24,7 +24,7 @@ public class Activity_6 {
     public void beforeClass() throws MalformedURLException, InterruptedException {
         // Set the Desired Capabilities
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("deviceId", "37311719");
+        caps.setCapability("deviceId", "37311719asjkjs");
         caps.setCapability("platformName", "Android");
         caps.setCapability("appPackage", "com.android.chrome");
         caps.setCapability("appActivity", "com.google.android.apps.chrome.Main");
